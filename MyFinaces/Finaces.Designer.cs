@@ -39,7 +39,7 @@
             this.lstFinaces.Name = "lstFinaces";
             this.lstFinaces.Size = new System.Drawing.Size(800, 450);
             this.lstFinaces.TabIndex = 0;
-            this.lstFinaces.SelectedIndexChanged += new System.EventHandler(this.lstFinaces_SelectedIndexChanged);
+          
             // 
             // Finaces
             // 

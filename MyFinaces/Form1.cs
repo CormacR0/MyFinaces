@@ -67,7 +67,7 @@ namespace MyFinaces
 
                     lblStatus.Text = ($"User ID{id} is {firstname} {lastname}");
                     Finaces finaceForm = new Finaces();
-                    finaceForm.Load();
+                    finaceForm.Show();
                     
                 }
 

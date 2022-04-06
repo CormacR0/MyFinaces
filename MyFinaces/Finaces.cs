@@ -16,10 +16,20 @@ namespace MyFinaces
         {
             InitializeComponent();
         }
-
-        private void lstFinaces_SelectedIndexChanged(object sender, EventArgs e)
+        private int userID;
+        public void SetUserDetails(string firstname, string lastname, int ID)
         {
-
+            Text = $"You are viewing the finaces for {firstname} {lastname}";
+            userID = ID;
         }
+
+        public void SetUserDetails(string firstname, string lastname, int ID)
+        {
+            Text = $"You are viewing the finaces for {firstname} {lastname}";
+            userID = ID;
+        }
+
+
+
     }
 }
